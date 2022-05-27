@@ -1,0 +1,154 @@
+/* Css Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  border: none ;
+  outline: none ;
+  text-decoration: none ;
+  text-transform: capitalize;
+  font-weight: 400;
+  transition: all 0.2s linear;
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", sans-serif;
+  font-size: 3em;
+  letter-spacing: -2px;
+  text-align: center;
+  color: rgb(148, 56, 13);
+}
+:root {
+  --navbar-height: 60px;
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+#logo {
+  margin: 14px 34px;
+}
+#logo img {
+  margin: 2px 6px;
+  height: 50px;
+}
+ul {
+  display: flex;
+  position: ;
+}
+#navbar ul li {
+  color: rgb(241, 233, 239);
+  list-style: none;
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+#navbar ul li a {
+  background: rgb(28, 69, 85);
+  display: block;
+  padding: 3px 15px;
+  border-radius: 25px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-family: "Baloo Bhai 2", cursive;
+  
+}
+#navbar ul {
+background: brown;
+}
+
+
+.bg {
+  opacity: 0.4;
+}
+#Hospital {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bree Serif", serif;
+}
+
+#Hospital::before {
+  content: " ";
+  position: absolute;
+  background: url("./Hospital.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.85;
+}
+.h-primary {
+  font-size: 2.8rem;
+  padding: 12px;
+}
+#Hospital h1 {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+input[type="text"] {
+  padding: 7px;
+  border: none;
+  font-size: 16px;
+  width: 95%;
+  -webkit-transition: width 0.4 ease-in-out;
+  transition: 0.4 ease-in-out;
+}
+input[type="text"] {
+  width: 20%;
+}
+html {
+  font-size: 95%;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+body.fa-bars {
+  font-size: 3.5rem;
+  color: var(--blue);
+  cursor: pointer;
+  display: none;
+}
+
+#search {
+  height: 50px;
+}
+
+#search_btn {
+  height: 50px;
+}
+
+.item {
+  margin: 5px;
+  width: 180px;
+}
+.navbar li a:hover {
+  color: rgb(196, 96, 96);
+  opacity: 0.5;
+  font-size: 19px;
+}
+.search-form {
+  margin-top: 15px;
+  float: right;
+  margin-left: 15px;
+
+  margin-right: 100px;
+}
+button {
+  float: right;
+  background: orange;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  position: relative;
+  padding: 7px;
+  font-family: sans-serif;
+  border: none;
+  font-size: 16px;
+}
+.navbar li {
+  float: right;
+}
